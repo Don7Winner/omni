@@ -84,9 +84,15 @@
     justify-content: center;
     margin-top: 3.2rem;
   }
-  .hero-img {
-    width: 60%;
+  .hero-img-box {
+    margin: 0 auto;
     text-align: center;
+    height: 350px;
+    width: 400px;
+  }
+  .hero-img {
+    height: 100%;
+    width: 100%;
   }
   .meal-content {
     padding: 2.2rem 3.2rem 3.2rem 3.2rem;
@@ -195,6 +201,14 @@
     font-size: 0.6rem;
     gap: 1.2rem;
   }
+  .hero-img-box {
+    height: 250px;
+    width: 300px;
+  }
+  .btn--full:link,
+  .btn--full:visited {
+    margin-bottom: 3rem;
+  }
 }
 /* 608  px FOR  TAPLET  */
 @media (max-width: 38em) {
@@ -236,6 +250,17 @@
   .logo-col,
   .address-col {
     grid-column: span 3;
+  }
+  .hero-img-box {
+    height: 150px;
+    width: 200px;
+  }
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+    margin: 0 3rem;
+  }
+  .diets {
+    justify-self: normal;
   }
 }
 /* 464px FOR MOBILE PHONE  */
